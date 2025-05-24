@@ -1,0 +1,32 @@
+.kutu{
+height: 150px;
+
+}
+#kutu1{background-color: lightpink;
+    padding: 50px 100px;
+   
+}
+/* yukarıdaki örnekte kutu içerisndeki öğeye 20px boşluk verildi. Çıktıyı live server'da 
+gözlemleyebilirsin. eğer padding değerini kutudan fazla bir değerde verirseniz kutunun boyutunu da büyütür. 
+çünkü verilen değer kadar boşluk yaratır. */
+#kutu2{background-color: moccasin;
+  
+}
+
+#kutu3{background-color: olivedrab;
+}
+
+span{background-color: lightcoral;
+    width: 200px;
+    padding: 100px;
+    display: inline-block;
+    margin: 7.5px;
+    }
+
+    /* eğer bir css fonksiyonunda 4 değer kullanırsan bunları saat yönünde düşün.
+   Sırasıyla - üst, sağ, alt ve sola - doğru ilerler. 
+    örn: 10px 20px 10px 20px. 
+ 
+    ama aşağıdaki gibi iki değer kullanırsan. 
+    örn: 10px 10px (üst alt & sağ sol) olarak değer atamış olursun.
+    tek değer olursa da tüm yönlere girilen değeri verir. */ 
