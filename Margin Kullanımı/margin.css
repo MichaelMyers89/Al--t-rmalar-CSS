@@ -1,0 +1,24 @@
+
+
+.kutu{width: 150px;
+height: 150px;
+
+}
+#kutu1{background-color: lightpink;
+   
+}
+
+#kutu2{background-color: lightgreen;
+    margin: auto;
+}
+
+#kutu3{background-color: olivedrab;
+}
+
+/* aşağıdaki örnekte span vb yazı türleri sayfada inline yani yana doğru default görünür. bu gibi durumlarda her bir kenarına
+ margin: 50px boşluk versin derseniz bunu sadece yatay düzeyde verir. bunu aşabilmek için display: inline-block yapısını kullanabilir
+ ve her bir kenarından boşluk verebilirsiniz.*/
+
+span{background-color: blanchedalmond;
+    display: inline-block;
+    margin: 50px;}

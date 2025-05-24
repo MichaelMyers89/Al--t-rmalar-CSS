@@ -1,0 +1,22 @@
+.kutu{width: 150px;
+height: 150px;}
+#kutu1{background-color: lightpink;
+width: 100%;
+position: sticky;
+top:10px;}
+
+#kutu2{background-color: lightgreen;
+}
+
+#kutu3{background-color: olivedrab;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* position fixed örneği. Öğe, Scroll etkinken sol altta yapışık kalır.
+
+#kutu3{background-color: olivedrab;
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    */

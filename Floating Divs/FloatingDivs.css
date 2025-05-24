@@ -1,0 +1,23 @@
+div{width: 150px;
+height: 150px;
+margin: 5px;
+overflow: auto;}
+
+.birinci{background-color: blue;
+float: left;}
+
+.ikinci{background-color: coral;
+float: left;}
+
+.üçüncü{background-color: darkcyan;
+float: left;}
+
+.dördüncü{background-color: orangered;
+float: left;}
+
+.container{
+    width: auto;
+    background-color: moccasin;
+   
+   
+}

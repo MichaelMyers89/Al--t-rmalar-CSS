@@ -1,0 +1,30 @@
+.container{width: auto;
+background-color: moccasin;
+margin: 2px;
+overflow: scroll;
+position: sticky;}
+.div1{background-color: orangered;
+width: 100px ;
+height: 100px;}
+.div2{background-color: olivedrab;
+width: 100px ;
+height: 100px;
+
+/* position:relative;
+bottom: 50;
+left: 50; */
+ 
+/* position: RELATIVE öğenin bulunduğu başlangıçtan noktasında itibaren boşluk bırakıp harekete başlıyor.Yukarıda
+div2 için position:realtive örneği mevcut.
+---
+position: ABSOLUTE ise sayfanın  üst ve alt köşelerinden başlayarak boşluk bırakır.
+aşığada DİV3 için position: absolute örneği mevcut. */
+}
+.div3{background-color: crimson;
+width: 100px ;
+height: 100px;
+position:fixed;
+top: 0;
+right: 0;
+
+}

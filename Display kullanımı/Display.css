@@ -1,0 +1,12 @@
+div {width: 400px;
+height: 100px;
+background-color: lightblue;
+margin: 5px;
+}
+
+a{display: block;}
+span{
+    display: block;
+}
+
+.kutu1{display: none;}
