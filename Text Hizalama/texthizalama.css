@@ -1,0 +1,30 @@
+body{
+    font-family: "Raleway", sans-serif;
+    width: 900px;
+    margin: 40px auto;
+    
+}
+ 
+/* hizalama örnekler */
+
+p#paragraf1{
+    text-align: right;
+}
+
+p#paragraf2{
+    text-align: center;
+}
+
+p#paragraf3{
+    text-align: left;
+    border: 2px solid orangered;
+    padding: 5px;
+
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+
+    column-rule: 2px solid orange;
+    -webkit-column-rule: 2px solid orange;
+    -moz-column-rule: 2px solid orange;
+}
