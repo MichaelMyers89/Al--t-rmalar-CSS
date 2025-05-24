@@ -1,5 +1,5 @@
 body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+margin: 100px;
 font-weight: 500;
 font-weight: 500;
     background-color: #641B2E ;
@@ -20,21 +20,27 @@ margin: 0.5rem;
    
     
 }
-p{margin: 0.5rem;
+p{padding: 0.5rem;
 
 ;}
-h1{margin: 0.5rem;}
+h1{font-size: 2.5rem;}
 a {
-border-radius: 50%;}
+border-radius: 50%;
+}
 
 a:hover{background-color: #8A2D3B;
 transition: 0.6s all ease-out;}
 .sinema{background-color: #FBDB93;
+    padding: 1rem;
     
 }
 
 .edebiyat{background-color: #FBDB93;
+    padding: 1rem;
 }
 
 .tiyatro{background-color: #FBDB93;
+    padding: 1rem;
 }
+#img{padding: 50px;
+    float: right;}
