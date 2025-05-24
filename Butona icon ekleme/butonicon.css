@@ -1,0 +1,39 @@
+a{  color: olivedrab;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: orangered;
+    font-size: 25px;
+    background: greenyellow;
+   
+}
+.button{
+    padding: 10px 20px;
+    background-color: bisque;
+    border: none;
+    border-radius: 50px; 
+    color: yellowgreen;
+    
+}
+.button:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.button2{
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid darkgoldenrod;
+    color: darkorange;
+    border-radius: 20px;
+}
+.button2:hover{
+    
+    background-color: orangered;
+    color: greenyellow;
+    cursor: pointer;
+}
