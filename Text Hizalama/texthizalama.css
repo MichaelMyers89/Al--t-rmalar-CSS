@@ -28,3 +28,9 @@ p#paragraf3{
     -webkit-column-rule: 2px solid orange;
     -moz-column-rule: 2px solid orange;
 }
+
+/* text-align: justify; (iki yana yasla, yay */
+p#paragraf4{
+    text-align: justify;
+    text-indent: 2rem;
+}
