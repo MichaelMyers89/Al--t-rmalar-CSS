@@ -1,0 +1,9 @@
+h1{font-size: 40px;}
+
+@media screen and (max-width:700px) {h1{font-size: 30px;
+color: orangered;}}
+/* Yukarıdaki örnekte çözünürlük 700px ve altında olduğunda yazı tipi boyutu 30px olacak. */
+@media screen and (max-width:400px) {h1{font-size: 15px;
+color: olivedrab;}}
+
+/* 400px ve altında ise yazı tipi boyutu 15px olacaktır! */ 
