@@ -1,0 +1,83 @@
+/* font-family: "Lato", sans-serif;
+font-weight: 400;
+
+ font-family: "Lato", sans-serif;
+  font-weight: 700;
+
+--
+
+font-family: "Montserrat", sans-serif;
+
+  */ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+
+}
+/*navbar */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: "Montserrat", sans-serif;
+    background-color: #2c3e4f;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#logo_box{
+    float: left ;
+    padding-top: 0.5rem;
+}
+#logo_box .logo{
+    color: white;
+    font-weight: 700;
+}
+#nav_links {
+    float: right;
+}
+#nav_links .nav_item{
+    float: left;
+    margin: 0.5rem;
+     list-style: none;
+}
+#nav_links .nav_link{
+   
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.6rem ;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+#nav_links .nav_link:hover{
+    color: #1abc9b;
+}
