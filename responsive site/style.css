@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header starts */
+header .bg-image {
+    position: absolute;
+    background-image: url(images/camera.jpg);
+    background-size: cover;
+    background-position: start;
+    height: 46rem;
+    width: 100%;
+    opacity: 55%;
+    z-index: -1;
+}
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border: 1px solid #666;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+}
+.btn:hover{
+    background-color: white;
+    color: #333;
+    transition: all 0.8s;
+}
+/* header ends */
+
+/*section a starts*/
+#section_a{
+    background-color: white;
+    color: #333;
+    padding: 3.2rem 0;
+
+}
+/*section a ends*/
+
+/*section b starts*/
+#section_b{
+    padding: 2rem;
+    
+}
+#section_b ul{
+    list-style: none;
+}
+
+#section_b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.col_content{
+    padding: 1.5rem;
+}
+/*section b ends*/
+
+/*section c starts*/
+#section_c{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+
+/*section c ends*/
+
+/*section d starts*/
+#section_d .box{
+    padding: 5rem;
+   
+}
+#section_d .box:first-child{
+    background-color: darkslategrey;
+}
+
+.clearfix::after{content: "";
+display: block;
+clear: both;
+}
+/*section d ends*/
+
+
+footer {
+    padding: 4rem;
+    background: black;
+   
+}
+footer a{ color: olivedrab;}
+
+@media screen and (min-width:800px) {
+    html{font-size: 9px;}
+    
+}
+@media screen and (min-width:1200px) {
+    html{font-size: 12px;}
+    #section_b li{
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box{
+        width: 50%;
+        float: left;
+        
+    }
+}
