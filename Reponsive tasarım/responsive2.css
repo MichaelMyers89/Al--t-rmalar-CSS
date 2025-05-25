@@ -4,12 +4,17 @@
 .kutu{
     background-color: lightcoral;
     width: 25%;
-    height: 250px;
+   
     float: left;
     border: 1px solid black;
 }
+img{max-width: 100%;
+height: auto;}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+    .kutu{width: 33.33%;}
+
+@media screen and (max-width: 600px) {
     .kutu{width: 50%;}
     
 }
