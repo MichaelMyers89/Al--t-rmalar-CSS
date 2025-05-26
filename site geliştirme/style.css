@@ -340,3 +340,11 @@ background-color: white;
 color: #2c3e4f;
 transition: all 0.5s;
 }
+.copyright{
+    background-color: #19262f;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: white;
+    text-align: center;
+
+}
