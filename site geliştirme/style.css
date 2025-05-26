@@ -160,7 +160,7 @@ text-align: center;
 }
 #portfolio{
     
-    height: 600px;
+   
     padding-top: 8rem;
     padding-bottom: 10rem;
     text-align: center;
@@ -181,6 +181,7 @@ text-align: center;
 }
 .portfolio_item img{
     display: block;
+    border-radius: 13px;
 }
 .img_overlay{
     position: absolute;
@@ -190,6 +191,7 @@ text-align: center;
     height: 100%;
     background-color: #1abc9b;
     opacity: 0;
+    border-radius: 13px;
 }
 .img_overlay .icon{
     color: #fff;
@@ -204,4 +206,104 @@ text-align: center;
     transition: all 0.5s;
 
 
+}
+section{
+    
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    text-align: center;}
+    #about{
+        background-color: #1abc9b;
+        color: #fff;
+    }
+#about h2{font-size: 4.2rem;}
+#about_text{
+    text-align: left;
+}
+#about_text .left{
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
+#about_text .right{
+    float: left;
+    width: 50%;
+    padding-right: 23rem;
+    padding-left: 2rem;
+}
+#about_text .text{
+    font-size: 2rem;
+
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline-block;
+    background-color: #1abc9b;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+     color: white;
+    border-color: #fff;
+}
+
+.btn:hover{
+    color: #212529;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+button .fa-solid{
+    font-size: 1.7rem;
+    padding-right: 0.9rem;
+}
+.send_btn {
+    width: 120px;
+    height: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #1abc9b;
+    border-color: #128f76;
+   
+}
+.send_btn:hover{
+    color: #fff;
+    background-color: #128f76;
+    transition: all 0.5s;
+    
+}
+#contact_form{
+ 
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.form_group{
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+.form_group input, .form_group textarea {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 2.4rem;
+
+}
+.form_group input:focus{
+    outline: 0;
+}
+#message:focus{
+outline: 0;
 }
