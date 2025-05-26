@@ -27,6 +27,17 @@ body{
     background-color: #fff;
 
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    
+
+}
+header h1{
+    color:#fff;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
 /*navbar */
 .clearfix::after{
     content: "";
@@ -40,17 +51,23 @@ body{
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    align-items: center;
 }
 a {
     text-decoration: none;
 }
 
+
 nav {
+    width: 100%;
     font-family: "Montserrat", sans-serif;
     background-color: #2c3e4f;
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    
+   
 }
 #logo_box{
     float: left ;
@@ -59,9 +76,11 @@ nav {
 #logo_box .logo{
     color: white;
     font-weight: 700;
+    font-family: 2.8rem;
 }
 #nav_links {
     float: right;
+    
 }
 #nav_links .nav_item{
     float: left;
@@ -80,4 +99,36 @@ nav {
 }
 #nav_links .nav_link:hover{
     color: #1abc9b;
+}
+.img_fluid {
+    max-width: 256px;
+    height: auto;
+}
+
+header{background-color: #1abc9b;
+height: 700px;
+padding-top: 15rem;
+text-align: center;
+}
+.star_light{
+    border: none;
+    border-top: 0.5rem solid white;
+    border-radius: 10px;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+    
+    }
+.star_light::after{ 
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    padding:0 8px ;
+    background-color: #1abc9b;
+    
+
 }
