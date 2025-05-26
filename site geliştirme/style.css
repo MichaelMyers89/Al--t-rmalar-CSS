@@ -307,3 +307,36 @@ button .fa-solid{
 #message:focus{
 outline: 0;
 }
+footer{
+
+    padding-top: 6rem;
+    padding-bottom:5rem;
+    background-color: #2c3e4f;
+    color: #fff;
+    
+}
+.btn_social{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 2rem;
+    background-color: transparent;
+    color: #fff;
+    border-style: none;
+    border: 2px solid white;
+    cursor: pointer;
+    
+    
+
+}
+#ul_items li{
+    list-style: none;
+}
+footer li{display: inline-block;
+margin-right: 1rem;}
+.btn_social:hover{
+background-color: white;
+color: #2c3e4f;
+transition: all 0.5s;
+}
