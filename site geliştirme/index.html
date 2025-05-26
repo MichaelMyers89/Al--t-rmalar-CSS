@@ -28,7 +28,7 @@
             <div id="logo_box">
                 <a href="/" class="logo">START BOOTSTRAP</a>
             </div>
-            <div id="nav_links">
+            <div id="nav_links" class="responsive">
                 <ul>
                     <li class="nav_item nav_icon"><a href="#" class="nav_link"><i class="fa-solid fa-bars"></i></a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Portfolio</a></li>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
     <section id="about">
@@ -136,65 +136,76 @@
                     sed. Unde sit numquam nulla.</p>
             </div>
             <div class="right">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, explicabo! adsfasdg hthdfgb sdsgserfg bzfb gsdrgdr  Qui harum impedit provident quos?</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Officia, explicabo! adsfasdg hthdfgb sdsgserfg bzfb gsdrgdr Qui harum
+                    impedit provident quos?</p>
             </div>
         </div>
         <div>
             <button class="btn "><i class="fa-solid fa-download"></i> Free Download!</button>
         </div>
     </section>
-<section id="contact">
-    <div class="container">
-        <h2 style="text-transform: uppercase; color: #2c3e4f; font-size: 4.2rem;">Contact Me</h2>
-        <hr class="star_dark">
-        <form id="contact_form">
-            <div class="form_group">
-                <input type="text" id="name" placeholder="Name">
+    <section id="contact">
+        <div class="container">
+            <h2 style="text-transform: uppercase; color: #2c3e4f; font-size: 4.2rem;">Contact Me</h2>
+            <hr class="star_dark">
+            <form id="contact_form">
+                <div class="form_group">
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="form_group">
+                    <input type="text" id="email" placeholder="E Mail">
+                </div>
+                <div class="form_group">
+                    <input type="text" id="phone" placeholder="Phone">
+                </div>
+                <div class="form_group">
+                    <textarea id="message" rows="5" placeholder="Messege"></textarea>
+                </div>
+                <button class="send_btn"> Send </button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container clearfix">
+            <div class="col">
+                <h4 style="text-transform: uppercase;font-size: 2.4rem;">Location</h4>
+                <p style="font-size: 2rem; margin-top: 1rem;">2215 Jhon Daniel Drive
+                    Clark, MO 65243
+                </p>
             </div>
-            <div class="form_group">
-                <input type="text" id="email" placeholder="E Mail">
+            <div class="col ">
+                <h4 style="text-transform: uppercase;font-size: 2.4rem;">Around the map</h4>
+                <ul id="ul_items">
+                    <li><button class="btn_social"><i class="fa-brands fa-facebook-f"></i></button></li>
+                    <li><button class="btn_social"><i class="fa-brands fa-twitter"></i></button></li>
+                    <li><button class="btn_social"><i class="fa-brands fa-linkedin-in"></i></button></li>
+                    <li><button class="btn_social"><i style="padding-left: 0.9rem; padding-bottom: 0.4rem;"
+                                class="fa-solid fa-basketball"></i></button></li>
+                </ul>
             </div>
-            <div class="form_group">
-                <input type="text" id="phone" placeholder="Phone">
+            <div class="col">
+                <h4 style="text-transform: uppercase; font-size: 2.4rem;">About Freelancer</h4>
+                <p style="font-size: 2rem; margin-top: 1rem;">Freelance is a free to use, MIT
+                    Bootstrap theme created by <span style="color: #1abc9b;">Start
+                        Bootstrap.</span></p>
             </div>
-            <div class="form_group">
-                <textarea id="message" rows="5" placeholder="Messege"></textarea>
-            </div>
-            <button class="send_btn"> Send </button>
-        </form>
-    </div>
-</section>
-<footer>
-    <div class="container clearfix">
-    <div class="col">
-        <h4 style="text-transform: uppercase;font-size: 2.4rem;">Location</h4>
-        <p style="font-size: 2rem; margin-top: 1rem;">2215 Jhon Daniel Drive
-            Clark, MO 65243
-        </p>
-    </div>
-     <div class="col ">
-        <h4 style="text-transform: uppercase;font-size: 2.4rem;">Around the map</h4>
-        <ul id="ul_items">
-           <li><button class="btn_social"><i class="fa-brands fa-facebook-f"></i></button></li>
-           <li><button class="btn_social"><i class="fa-brands fa-twitter"></i></button></li>
-           <li><button class="btn_social"><i class="fa-brands fa-linkedin-in"></i></button></li>
-           <li><button class="btn_social"><i style="padding-left: 0.9rem; padding-bottom: 0.4rem;" class="fa-solid fa-basketball"></i></button></li>
-        </ul>
-    </div>
-     <div class="col">
-        <h4 style="text-transform: uppercase; font-size: 2.4rem;">About Freelancer</h4>
-        <p style="font-size: 2rem; margin-top: 1rem;">Freelance is a free to use, MIT 
-        Bootstrap theme created by <span style="color: #1abc9b;">Start 
-    Bootstrap.</span></p>
-    </div>
-    </div>
-</footer>
-<div class="copyright">
-    <div class="container">
-        <small>Copyright c Your Website 2025</small>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <small>Copyright c Your Website 2025</small>
+        </div>
+
     </div>
 
-</div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(".nav_icon").click(function(){
+            $("#nav_links").toggleClass("responsive");
+            return false;
+        });
+    </script>
 </body>
 
 </html>
