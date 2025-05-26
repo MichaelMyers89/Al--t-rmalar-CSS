@@ -13,6 +13,7 @@ font-family: "Montserrat", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 
 }
 
@@ -102,6 +103,7 @@ a {
 
 nav {
     width: 100%;
+    
     font-family: "Montserrat", sans-serif;
     background-color: #2c3e4f;
     color: #fff;
@@ -122,13 +124,47 @@ nav {
     font-family: 2.8rem;
 }
 #nav_links {
-    float: right;
+    float: right ;
+   
+   
+}
+#nav_links .nav_icon{
+    display: none;
+} 
+@media (max-width: 992px){
+    #logo_box{
+        float: none;
+        text-align: left;
+
+    }
+    #nav_links {
+        float:none ;
+        
+    }
+    #nav_links .nav_link{
+        font-size: 2rem;
+        padding-left: 0;
+        
+
+    }
+ #nav_links .nav_item{
+        float: none;
+        text-align: left;
+        
+    }
+ #nav_links .nav_icon{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+ }
+ 
     
 }
 #nav_links .nav_item{
     float: left;
     margin: 0.5rem;
-     list-style: none;
+    list-style: none;
 }
 #nav_links .nav_link{
    
