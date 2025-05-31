@@ -1,25 +1,40 @@
 *{
-    margin: 0.5rem;
+    gap:1rem;
 }
-body{width: 1440px;
+
+body{
+    margin: 0;
+  padding: 0;
+  height: 100vh; /* Görünen ekranın tamamı kadar yükseklik */
+  
+  display: flex; /* Flexbox sistemini aktifleştirir */
+  justify-content: center; /* YATAY ortalama */
+  align-items: flex-start;      /* DİKEY'de üstten başlat */
+  background-color: #f2f2f2; /* Arka plan rengi (isteğe bağlı) */
+ font-family: Arial, Helvetica, sans-serif;
     
-    
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-item{
-    margin: 5px ;
-    padding: 20px;
-    background-color: antiquewhite;
-    width: 100%;
+    margin: 20px ;
+    padding: 30px;
+   
+    width: 75%;
+    
+    
 }
 .btn{
+    
     background-color: #410445 ; 
     width: 200px;
-    height: 50px;
+    height: 55px;
     border-style: none;
    border-radius: 10px;
    cursor: pointer;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+   color: antiquewhite;
+   font-weight: 600;
     
 }
 .btn:hover{
@@ -29,6 +44,7 @@ body{width: 1440px;
 .btn-name{
     color: antiquewhite;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: #410445;
      
 }
 .form-div{
@@ -40,6 +56,7 @@ body{width: 1440px;
     flex-direction: column;
     width: 25%;
     margin-left: -12px;
+    margin-top: 20px;
 }
 .form-2{display: flex;
     justify-content: end;
@@ -52,9 +69,15 @@ body{width: 1440px;
     border-top: none;
     border-right: none;
     border-left: 5px solid #640D5F;
+    border-bottom: none;
     font-size: large;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+
 }
 
 .inner-btn{
